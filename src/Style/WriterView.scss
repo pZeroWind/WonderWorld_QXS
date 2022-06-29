@@ -1,0 +1,94 @@
+.content {
+    display: flex;
+    height: 80vh;
+
+    .view {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .tab {
+            display: flex;
+            margin-left: 10px;
+            justify-content: space-between;
+
+            &-box {
+                cursor: pointer;
+                font-size: 15px;
+                font-weight: bold;
+                padding: 10px;
+                margin: 10px;
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 0 5px #ddd;
+            }
+
+            .sel {
+                background-color: #a00;
+                color: #fff;
+            }
+        }
+
+        .btn {
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #ddd;
+        }
+    }
+
+    .menu {
+        padding: 10px;
+        margin: 10px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #ddd;
+
+        li {
+            cursor: pointer;
+            user-select: none;
+            list-style: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px;
+
+            &:hover {
+                color: #a00;
+            }
+        }
+
+        .select {
+            color: #d00;
+        }
+    }
+
+    .boxList {
+        display: flex;
+        justify-content: space-between;
+
+        .box {
+            width: 200px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #ddd;
+
+            .title {
+                font-size: 17.5px;
+                font-weight: bold;
+            }
+
+            .data {
+                margin: 5px;
+                font-size: 20px;
+                text-align: center;
+                color: #aaa;
+            }
+        }
+    }
+}

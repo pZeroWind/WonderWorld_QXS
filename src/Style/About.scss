@@ -1,0 +1,14 @@
+.AboutAll{
+    display: flex;
+    &-left{
+      width: 25%;
+    }
+    &-right{
+      margin-top: 5px;
+      width: 75%;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }

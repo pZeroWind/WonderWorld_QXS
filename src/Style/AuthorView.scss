@@ -1,0 +1,14 @@
+.all1{
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ddd;
+  ul{
+    padding: 10px;
+    li{
+      padding: 5px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+  }
+  background-color: #fff;
+}

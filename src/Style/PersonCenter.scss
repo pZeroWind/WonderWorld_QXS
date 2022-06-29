@@ -1,0 +1,257 @@
+.PC-TOP{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 5px #ddd;
+    display: flex;
+}
+.PC-Middle{
+    
+    display: flex;
+    justify-content: space-between;
+    &-left{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 0 0 5px #ddd;
+        width: 20%;
+        height: 250px;
+        ul{
+            li{
+                cursor: pointer;
+                font-size: 14px;
+                text-align: center;
+                list-style: none;
+                text-decoration: none;
+                color: rgb(45, 41, 41);
+                font-weight: bold;
+                
+                border-radius: 5px;
+                margin: 10px;
+                padding: 2.5px;
+                padding: 15px;
+                &:hover{
+                    color: #fff;
+                    background-color: #a00;
+                }
+            }
+            .selected{
+                color: #fff;
+                background-color: #a00;
+            }
+        }
+    }
+    &-right{
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(235, 232, 232);
+        padding: 10px;
+        margin: 10px;
+        width: 80%;
+       &-1{
+            ul{
+                li{
+                    display: flex;
+                    padding: 40px;
+                    list-style: none;
+                    border-bottom: 1px solid #ddd;
+                
+                }
+            }
+       }
+       
+    }
+
+}
+.PC-text{
+    margin-left: 50px;
+}
+.PCimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.PCAbout{
+ margin-left: 40px;
+ margin-top: 10px;
+ &-name{
+    font-size: 18px;
+ }
+ &-other{
+
+     margin-top: 20px;
+     font-size: 16px;
+    
+ }
+}
+.btn{
+    margin-left: 10px;
+    background-color: #a00;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    &:hover{
+        background-color: #c00;
+    }
+    
+}
+
+.comment{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(239, 237, 237);
+    border-radius: 20px;
+    &-top{
+        display: flex;
+        padding-top: 10px;
+        &-name{
+            padding-left: 10px;
+        }
+        &-time{
+            padding-left: 700px;
+        }
+    }
+    
+    &-text{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 90%;
+    }
+    &-book{
+        padding-left: 700px;
+        padding-bottom: 20px;
+    }
+}
+.comments{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 20px;
+    &-top{
+        display: flex;
+        padding-top: 10px;
+        &-name{
+            padding-left: 10px;
+            font-weight: bold;
+        }
+        &-name1{
+            padding-left: 10px;
+            font-weight: bold;
+        }
+        &-time{
+            padding-left: 6 00px;
+        }
+    }
+    &-text{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 90%;
+    }
+    &-book{
+        padding-left: 700px;
+        padding-bottom: 20px;
+    }
+}
+.My_mess_diago {
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0px auto;
+	border: none;
+}
+
+.My_mess_box {
+	opacity: 1;
+	width: 650px;
+	height: 450px;
+	background-color: white;
+	border-radius: 15px;
+	margin: 0px auto;
+}
+
+.My_mess_imgbox {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.My_mess_leftimg {
+	margin-top: 20px;
+	width: 270px;
+	margin-right: 10px;
+	height: 270px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	user-select: none;
+}
+
+.My_mess_rightimg {
+	margin-top: 20px;
+	width: 270px;
+	margin-left: 10px;
+	height: 270px;
+	border-radius: 50%;
+	padding: 10px;
+	user-select: none;
+}
+
+.My_mess_btninp {
+	cursor: pointer;
+	margin-left: 25px;
+	display: flex;
+	width: 70px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	background-color: #000;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.My_mess_btninp span {
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+}
+
+.My_mess_fileinp {
+	cursor: pointer;
+	opacity: 0;
+	width: 100px;
+}
+
+.My_mess_btn_box {
+	margin-top: 20px;
+}
+
+.My_mess_btncancel {
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	padding: 0px 10px;
+}
+
+.My_mess_btnreturn {
+
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	padding: 0px 10px;
+	margin-left: 20px;
+}

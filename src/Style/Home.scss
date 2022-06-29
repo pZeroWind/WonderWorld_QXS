@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+
+  .title {
+    position: absolute;
+    bottom: 0px;
+    padding: 1.5%;
+    width: 97%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 15px #000;
+  }
+}
+
+.middle {
+  display: flex;
+
+  &-left {
+    width: 80%;
+  }
+
+  &-right {
+    width: 20%;
+  }
+
+}
+
+.middle-right {
+  .tag-hot {
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+  }
+}
